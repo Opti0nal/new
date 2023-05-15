@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    position: relative;
+    
+}
+#hero{
+   height: 120px;
+   width: 100%;   
+   background:#F5EBEB;
+   position: absolute;
+}
+#hero img{
+    height: 50px;
+    width: 8%;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+#two{
+    height: 100vh;
+    width: 99.1vw;
+    background-color: #F9FBE7;
+    position: absolute;
+    top: 120px;
+}
+nav{
+    height: 100%;
+    width: 20%;
+    line-height:120px;
+    position: absolute;
+    left: 46%;
+}
+ul li{
+    margin-left: 30px;
+    width: 30%;
+    display: inline;
+    
+}
+ul a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+    transition: 0.4s;
+
+}
+ul li a:hover{
+    color: rgba(0, 0, 255, 0.548);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.548);
+
+}
+.buttons{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 32%;
+    left: 65%;
+}
+.login{
+    width: 40%;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px;
+}
+.signup{
+    background-color: #432C7A;
+    color: white;
+    font-weight: 1000;
+    transition: .6s;
+}
+.signup:hover{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    
+}
+.signin{
+    transition: 0.6s;
+}
+.signin:hover{
+    background-color:#432C7A ;
+    color: white;
+    cursor: pointer;
+}
+
+.heroimg img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 58%;
+    top: 10%;
+}
+
+.herodetail{
+   
+    width: 30%;
+    height: 400px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+.herodetail h1{
+    font-size: 45px;
+    color: #432C7A;
+}
+.herodetail p{
+    font-size: 21px;
+    margin-top: 40px;
+    color: #c4bebe;
+}
+.herobtn{
+    height: 50px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #432C7A;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.herobtn:hover{
+    color: black;
+    background-color: wheat;
+}
+
+.counter{
+    height: 170px;
+    width: 67%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.counters{
+    text-align: center;
+    height: 170px;
+    width: 170px;
+    background-color:#432C7A;
+    border: 1px solid ;
+    border-radius: 50%;
+    padding-top: 15px;
+    font-size: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.counters p{
+    font-size: 15px;
+}
