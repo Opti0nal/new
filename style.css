@@ -115,7 +115,7 @@ ul li a:hover{
 .herodetail p{
     font-size: 21px;
     margin-top: 40px;
-    color: #c4bebe;
+    color: #999191;
 }
 .herobtn{
     height: 50px;
@@ -144,6 +144,7 @@ ul li a:hover{
     left: 15%;
     display: flex;
     justify-content: space-between;
+
     
 }
 .counters{
@@ -161,4 +162,44 @@ ul li a:hover{
 }
 .counters p{
     font-size: 15px;
+}
+
+#three{
+    position: absolute;
+    top: 100vh;
+    width: 99vw;
+
+}
+.aboutimg img{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    left: 13%;
+    top: 3%;
+    
+}
+.aboutimg{
+    width: 1900px;
+    height: 100vh;
+    
+   position: absolute;
+
+
+}
+.threedetail{
+    height: 300px;
+    width: 25%;
+    
+    position: absolute;
+    left: 58%;
+    top: 50px;
+}
+.threedetail h1{
+    font-size: 45px;
+    color: #432C7A;
+}
+.threedetail p{
+    font-size: 21px;
+    margin-top: 40px;
+    color: #999191;
 }
